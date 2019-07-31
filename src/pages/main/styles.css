@@ -1,0 +1,70 @@
+.contact-list {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.contact-list article {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    padding: 20px;
+}
+.contact-list article p {
+    font-size: 16px;
+    color: #727272;
+    margin-top: 6px;
+    line-height: 20px;
+}
+
+.contact-list article a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #68bd45;
+    background: none;   
+    color: #68bd45;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 2px;
+    transition: all 0.2s;
+}
+
+.contact-list article a:hover {
+    background: #68bd45;
+    color: #fff;
+}
+
+.contact-list .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contact-list .actions button {
+    padding: 10px;
+    border-radius: 6px;
+    background: #68bd45; 
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-list .actions button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.contact-list .actions button:hover {
+    opacity: 0.7;    
+}
+
+.contact-list .actions button[disabled]:hover {
+    opacity: 0.5;    
+}

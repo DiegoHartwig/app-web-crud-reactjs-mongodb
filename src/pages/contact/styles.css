@@ -1,0 +1,18 @@
+.contact-info {
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.contact-info h1 {
+    font-size: 20px;
+}
+
+.contact-info p {
+    color: 2c2c2d;
+    line-height: 20px;
+    margin-top: 6px;
+}
